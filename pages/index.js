@@ -3,6 +3,9 @@ import Image from 'next/image'
 
 // component imports
 import Banner from '../components/Banner'
+import Hero from '../components/Hero'
+import TextSliders from '../components/TextSliders'
+import Cta from '../components/Cta'
 
 
 export default function Home() {
@@ -15,7 +18,9 @@ export default function Home() {
       </Head>
       <Banner />
       <main className="">
-        
+        <Hero />
+        <TextSliders />
+        <Cta />
       </main>
 
       <footer className="">

@@ -2,7 +2,10 @@
 const Cta = () => {
     return (
         <div>
-            Follow me on Instagram
+            <p>Listening to audio books as I craft my way through life.</p>
+            <div>
+                Follow me on Instagram
+            </div>
         </div>
     )
 }
